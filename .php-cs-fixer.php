@@ -10,6 +10,7 @@ return (new Config())
     ->setRules([
         '@PSR12' => true,
         '@PSR12:risky' => true,
+        'braces' => ['allow_single_line_closure' => true],
         'concat_space' => ['spacing' => 'one'],
         'native_function_invocation' => false,
         'not_operator_with_successor_space' => true,
